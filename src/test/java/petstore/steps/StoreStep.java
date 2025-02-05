@@ -11,7 +11,7 @@ public class StoreStep {
     private static final String BASE_URL = "https://petstore.swagger.io/v2/store/order";
 
     public void createOrder() {
-        // Aquí podrías definir una orden en una variable global si es necesario
+
     }
 
     public Response postOrder() {
@@ -30,7 +30,7 @@ public class StoreStep {
     }
 
     public int getExistingOrderId() {
-        return 10; // En una implementación real, deberías buscar una orden existente.
+        return 10;
     }
 
     public Response getOrder(int orderId) {
